@@ -1,5 +1,36 @@
+.............................................................
+🎓 1. Student Management System
+📋 Tables
 
-# Project -1
+Students(student_id, first_name, last_name, age, gender, department)
+
+Courses(course_id, course_name, credits)
+
+Enrollments(enrollment_id, student_id, course_id, marks, grade)
+
+Departments(dept_id, dept_name)
+
+💡 Project Tasks
+
+Create all tables with proper foreign keys.
+
+Insert at least 10 students, 5 courses, and sample enrollments.
+
+Write queries for:
+
+Find the average marks of each course.
+
+List students who scored more than 80 in any subject.
+
+Find students who are not enrolled in any course.
+
+Show department-wise student count.
+
+Create a trigger to automatically assign a grade when marks are inserted.
+
+Create a view called top_students showing students scoring >85 in all subjects.
+
+  ..........................................................................
 
 create database pro;
 use pro;
